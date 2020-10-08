@@ -5,19 +5,20 @@ html, body {
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #f5f6f7;/*#f5f6f7*/
 }
 
 p {
     font-size: 16px;
 }
 
-a {
-    color: #2e72a1;
+.cp{
+  color: white; /*white*/
 }
 
-#logo, .project-img {
-    max-height: 300px;
+.size {
+  height: 300px;
+  width: 350px;
 }
 
 #fork img{
@@ -36,16 +37,16 @@ a {
 
 .bg-1 {
     background-color: #ffffff; /* White */
-    color: #555555;
+    color: #000000; /*black*/
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+    background-color: #000000; 
+    color: #ffffff;/*white*/
 }
 
 .card {
-    color: black;
+    color:black);
     text-align: left;
 }
 
@@ -54,13 +55,13 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
+    background-color: #ffffff; /* Black */
+    color: #000000;/*white*/
 }
 
 .bg-4 {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff;
+    background-color: #000000; /*dark grey*/
+    color: #fff;/*white*/
 }
 
 .container-fluid {
@@ -79,5 +80,5 @@ a {
 }
 
 .navbar-nav li a:hover {
-    color: #2e72a1 !important;
+    color: #adddff !important;
 }
