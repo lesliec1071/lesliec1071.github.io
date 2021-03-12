@@ -10,8 +10,11 @@ body {
 
 p {
     font-size: 16px;
+    color: black;
 }
-
+h5{
+  color: black; /*black*/
+}
 .cp{
   color: white; /*white*/
 }
@@ -46,7 +49,7 @@ p {
 }
 
 .card {
-    color:black);
+    color:black;
     text-align: left;
 }
 
